@@ -9,5 +9,5 @@ const producto = {
 // console.log(nombre);
 // Destructuring de las variables, se puede extraer variables del objeto
 const { nombre, precio } = producto;
-
+const { precio } = producto;
 console.log(nombre, precio);
